@@ -1,0 +1,156 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+
+    display: flex;
+    min-height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+nav a:hover{
+    color: white;
+}
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+img{
+    max-width: 100%;
+}
+article.card{
+    max-width: 480px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 0 12px #d7d7d7;
+    
+
+}
+.header-card img{
+    border-radius: 8px 8px 0 0;
+    max-height: 200px;
+    height: 300px;
+    width: 100%;
+}
+.categoria-card{
+    margin-top: 1rem;
+}
+.categoria-card span{
+    background-color: aqua;
+    color: white;
+    padding: .2rem .5rem;
+    border-radius: 4px;
+
+}
+.card footer{
+    padding: 0 1rem;
+}
+.card-wrap{
+    display: flex;
+    flex-flow: wrap;
+    gap: 100px;
+}
+.texto-card a{
+    background-color: #c4258f;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.from-formulario{
+    width: 400px;
+    background-color:coral;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color:white;
+    box-shadow: 7px 13px 37px #000;
+    display: flex;
+
+}
+
+.from-formulario h2{
+    font-size: 22px;
+    margin-bottom: 20px;    
+
+}
+.controls{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+
+.from-formulario .bottons{
+width: 33.3%;
+background: #c4258f ;
+border: none;
+padding: 12px;
+color: white;
+margin: 10px 0;
+font-size: 16px;
+
+}
+
+button {
+    background-color: #c4258f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c4258f;
+  }
+
+  .final{
+    background-color: lightcoral;
+    padding: 1em 0;
+    color: white;
+    text-align: center;
+
+   
+   
+  }
+
+
+  
